@@ -33,3 +33,26 @@ This program is a simple file manager built using the `curses` library in Python
 2. Ensure you have the required external tools installed. You can install them using your package manager: 
    ```bash
    sudo apt-get install neovim evince p7zip-full
+  
+## Usage
+Run the program using Python:
+   ```bash
+   python FMundeofnuts.py
+   ```
+I like to add this as a shortcut in my ~/.bashrc
+   ```~/.bashrc
+   alias FManage='python /path/to/FMundeofnuts.py'
+   ```
+### Key Bindings
+- `q`: Quit the program.
+- `↑`/`↓`: Navigate through files and directories.
+- `o`/`Enter`: Open the selected file or directory.
+- `m`: Move the selected file or directory.
+- `c`: Copy the selected file or directory.
+- `r`: Rename the selected file or directory.
+- `d`: Create a new directory.
+- `x`: Delete the selected file or directory.
+- `t`: Create a new empty file (touch).
+- `y`: Yank (copy the path) of the selected file.
+- `p`: Paste the yanked file by copying or moving it to the current directory.
+- `z`: Zip the selected directory using `7z`.
