@@ -29,3 +29,7 @@ This program is a simple file manager built using the `curses` library in Python
    ```bash
    git clone https://github.com/cottnich/FManage.git
    cd FManage
+
+2. Ensure you have the required external tools installed. You can install them using your package manager: 
+   ```bash
+   sudo apt-get install neovim evince p7zip-full
